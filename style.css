@@ -1,0 +1,26 @@
+body{
+    background-color: brown;
+}
+.coin {
+    width:30px;
+    height:30px;
+    background-color:yellow;
+    border:solid black 1px;
+    margin-left:10px;
+    display:inline-block;
+}
+.container {
+    position:absolute;
+    width:200px;
+    height:150px;
+    background-color: gray;
+    border:solid black 1px;
+    word-wrap: inherit;
+    height:fit-content;
+}
+.container:nth-child(1) {
+    left:80%;
+}
+.container:nth-child(2) {
+    left:40%;
+}
